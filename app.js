@@ -1,6 +1,10 @@
 const contact_form = document.getElementById("contact-form");
 const reader = new FileReader();
 
+function init(){
+
+};
+
 (function () {
     [...document.querySelectorAll(".control")].forEach(button => {
         button.addEventListener("click", function() {
