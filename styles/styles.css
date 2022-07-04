@@ -700,8 +700,8 @@ section {
     grid-template-columns: repeat(1, 1fr);
   }
   .about-container .right-about {
-    grid-template-columns: repeat(1, 1fr);
     padding-top: 2.5rem;
+    margin-left: 0;
   }
   .about-container .left-about {
     padding-right: 0;
@@ -850,8 +850,12 @@ section {
   }
   .about-container .right-about {
     padding-top: 2.5rem;
+    margin-left: 0;
   }
 
+  .blogs ul li {
+    display: flex;
+  }
   .main-title h2 {
     font-size: 4rem;
   }
