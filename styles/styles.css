@@ -253,7 +253,8 @@ section {
 }
 .musics {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  /* TODO change to 3 when more videos uploaded */
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   margin-top: 3rem;
 }
@@ -263,7 +264,8 @@ section {
 }
 .musics .music-item iframe {
   width: 100%;
-  height: 15rem;
+  /* height: 15rem; */
+  height: 25rem;
   object-fit: cover;
   border-radius: 15px;
 }
